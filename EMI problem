@@ -1,0 +1,13 @@
+p=int(input("principle amount:"))
+principle amount:2254
+t=int(input("time:"))
+time:3
+r=float(input("rate of intrest:"))
+rate of intrest:5
+si=(p*t*r)/100
+print("SI:",si)
+SI: 338.1
+#emi
+emi=p+si/t*12
+print("emi:",emi)
+emi: 3606.4
