@@ -1,0 +1,46 @@
+sno=int(input("enter student no:))
+              
+
+sno=int(input("enter student no:"))
+              
+enter student no:1
+name=input("student name:"))
+        
+SyntaxError: unmatched ')'
+name=input("student name:")
+        
+student name:prabha
+gender=input("std gender:")
+        
+std gender:male
+group=input("std group:")
+        
+std group:dsstcs
+address=input("std address:")
+        
+std address:4-14/4
+phn no=int(input("std pn no:"))
+        
+
+phnno=int(input("std pn no:"))
+        
+std pn no:786545456
+print("sno:",sno)
+        
+sno: 1
+print("name:",name)
+        
+name: prabha
+print("std gender:",gender)
+        
+std gender: male
+print("std group:",group)
+        
+std group: dsstcs
+print("std address:",address)
+        
+std address: 4-14/4
+
+print("std phone number:",phnno)
+        
+std phone number: 786545456
