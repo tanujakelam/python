@@ -1,0 +1,17 @@
+input("name:")
+name:tanu
+'tanu'
+int(input("sno:"))
+sno:1
+1
+input("group:")
+group:dsstcs
+'dsstcs'
+marks=int(input("marks:")
+          )
+marks:54
+if(marks>=35):
+    print("pass")
+    else:
+    print("fail")
+ pass   
