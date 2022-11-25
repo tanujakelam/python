@@ -1,0 +1,14 @@
+list1=[1,2,3,4enter thec search no 6
+6
+exist,6]
+n=int(input("enter the search no"))
+if n in list:
+print("exist")
+else:
+print("does not exist")
+
+output
+ 
+ enter the search no 6
+ 6
+ exist
