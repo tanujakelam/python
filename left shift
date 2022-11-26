@@ -1,0 +1,17 @@
+h=int(input("enter h:"))
+enter h:6
+for i in range(0,10):
+    print(h<<i)
+    i=i+1
+
+ output
+6
+12
+24
+48
+96
+192
+384
+768
+1536
+3072
