@@ -1,0 +1,17 @@
+j=int(input("enter j:"))
+enter j:5
+for i in range(0,10):
+    print(j>>i)
+    i=i+1
+
+output    
+5
+2
+1
+0
+0
+0
+0
+0
+0
+0
