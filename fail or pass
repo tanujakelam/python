@@ -1,0 +1,27 @@
+print("enter st1 marks:")
+st1=int(input())
+st2=int(input("enter st2 marks:"))
+st3=int(input("enter st3 marks:"))
+if st1>=35:
+    print("pass")
+else:
+        print("fail")
+if st2>=35:
+    print("pass")
+else:
+        print("fail")        
+if st3>=35:
+    print("pass")
+else:
+        print("fail")        
+        
+        
+        output:
+enter st1 marks:
+32
+enter st2 marks:46
+enter st3 marks:99
+fail
+pass
+pass
+> 
