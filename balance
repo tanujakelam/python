@@ -1,0 +1,12 @@
+balance=60000
+amount=int(input("enter amount:"))
+if amount<balance:
+    print("credit amount:",amount)
+print("main balance:",balance-amount)
+
+    
+    
+    output:
+    enter amount:4000
+credit amount: 4000
+main balance: 56000
