@@ -1,0 +1,43 @@
+rice=1100#packet
+oil=210#packet
+salt=100#packet
+chilli=100#packet
+tea=210#packet
+phno=input("enter your phone no:")
+name=input("enter your name:")
+adr=input("enter your adress:")
+cp=input("enter your coupon code:")
+r,o,s,c,t=int(input("enter your rice quantity:")),int(input("enter your oil quantity:")),int(input("enter your salt quantity:")),int(input("enter your chilli quantity:")),int(input("enter your tea quantity:"))
+bill=(rice*r)+(oil*o)+(salt*s)+(chilli*c)+(tea*t)
+if bill>3000:
+    tax=(bill*5)/100
+elif bill>2000:
+    tax=(bill*7)/100
+elif bill>1000:
+    tax=(bill*10)/100
+elif bill>500:
+    tax=(bill*10)/100
+else:
+    tax=100
+bill=tax+bill 
+if 'DIWALI'==cp:
+    if bill>=5000:
+        dis=(bill*10)/100
+    elif bill>=3000:
+        dis=(bill*6)/100
+    elif bill>=1000:
+        dis=(bill*4)/100
+    else:
+        dis=0
+    
+if 'CHRISTMAS'==cp:
+    if bill>=3000:
+        dis=(bill*20)/100
+    elif bill>=2000:
+        dis=(bill*10)/100
+    elif bill>=1000:
+        dis=(bill*5)/100
+    else:
+        dis=0
+acbill=bill-dis        
+print("your bill is ready \n",phno,"\n",name,"\n",tax,"\n",bill,"\n",acbill)
