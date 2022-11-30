@@ -1,0 +1,19 @@
+name=input("enter your name:")
+units=int(input("enter your electricity units:"))
+
+if units<500:
+    amt = units * 3.50
+    unitcharge=25
+elif bill<=100:
+    amt = 130 + ((units - 50 ) * 4.25)
+    unitcharge=35
+elif bill<=200:
+    amt = 130 + 162.50 + ((units - 100 ) * 5.26)
+    unitcharge=45
+
+else:
+    amt = 130 + 162.50 + 526 + ((units - 200 ) * 7.75)
+    unitcharg = 55
+   
+total= amt+ unitcharg
+print(total)
