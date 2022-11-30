@@ -1,0 +1,6 @@
+scno:13245
+consumedunits:100
+unit:3
+bill=consumedunits*unit
+print('Total consumed units in a month', consumedunits) 
+print('total amount is', bill)
