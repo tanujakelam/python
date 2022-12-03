@@ -1,0 +1,10 @@
+def leapyear(b):
+if b%4==0 and n%100!=100 ot b%400==0:
+  return True
+else:
+  return False
+  b=int(input('enter your year:'))
+  if(leapyear(b)):
+    print("yes leap year")
+  else:
+    print("not a leap year")
