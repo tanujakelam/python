@@ -1,0 +1,8 @@
+c=int(input("enter your number"))
+temp=c
+sum=0
+while c!=0:
+    rem=c%10
+    sum=rem+sum
+    c=c//10
+print(sum)
