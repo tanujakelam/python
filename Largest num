@@ -1,0 +1,8 @@
+p=int(input("enter h0w many digits you want:"))
+num=int(input("enter your number"))
+large=num
+for i in range(0,p):
+    num=int(input("enter your number:"))
+    if(num>large):
+        large=num
+print(large)
