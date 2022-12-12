@@ -1,0 +1,17 @@
+from tkinter import*
+sf=Tk() 
+sf. Title("student form") 
+Label(sf,text="enter student regid").grid(row=0, column=0) 
+Label(sf,text="enter student name").grid(row=1, column=0) 
+Label(sf,text="enter father name").grid(row=2, column=0) 
+Label(sf,text ="enter group"). grid(row=3, column=0) 
+Label(sf,text="enter phone number"). grid(row=4, column=0) 
+Label(sf,text="enter email id"). grid(row=5, column=0) 
+Entry(sf).grid(row=0, column=1) 
+Entry(sf).grid(row=1, column=1) 
+Entry(sf).grid(row=2, column=1) 
+Entry(sf).grid(row=3, column=1) 
+Entry(sf).grid(row=4, column=1) 
+Entry(sf).grid(row=5, column=1) 
+Button(sg, text="submit").grid(row=6, column=0) 
+mainloop
