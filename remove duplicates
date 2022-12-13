@@ -1,0 +1,9 @@
+l=[]
+n=int(input())
+for i in range(n):
+    x=int(input())
+    l.append(x)
+s=set(l)
+t=list(s)
+print(t)
+    
