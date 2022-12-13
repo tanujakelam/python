@@ -3,6 +3,7 @@ n=int(input("enter no of districts:"))
 for i in range(n):
     x=input()
     l.append(x)
+l.sort(reverse=False)    
 print(l)
     
     
