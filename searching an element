@@ -1,0 +1,16 @@
+n=int(input())
+m=int(input())
+l=[]
+count=0
+for i in range(n):
+    x=int(input())
+    l.append(x)
+for i in range(n):
+    if l[i]==m:
+        count=count+1 
+if count>0:  
+    print('element found at ',i)
+else:
+    print('element not fount')
+     
+    
